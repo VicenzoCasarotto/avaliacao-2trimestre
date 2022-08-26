@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container input, .container button {
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: crimson;
+    color: aliceblue;
+    width: 100%;
+}
